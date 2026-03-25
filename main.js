@@ -197,7 +197,7 @@ function applyBranchContentOverrides() {
 
   const storyParagraphs = document.querySelectorAll('.story-text p');
   if (storyParagraphs[0]) {
-    storyParagraphs[0].textContent = 'Founded in Chennai, JPT & Co began as a focused audit practice with a singular mission: to bring clarity, transparency, and integrity to every financial statement we touched.';
+    storyParagraphs[0].textContent = 'Founded in Chennai, JPT & Co began as a focused audit practice with a singular mission: to bring clarity, transparency and integrity to every financial statement we touched.';
   }
 
   document.querySelectorAll('.highlight-card').forEach(card => {
