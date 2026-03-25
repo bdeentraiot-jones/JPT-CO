@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: jpt-co
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
